@@ -1,0 +1,26 @@
+{
+  "name": "dewbotv3",
+  "version": "3.0.0",
+  "description": "Discord Bot meant to help facilitate games for an Among Us Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitoffmyfarm/dew-bot.git"
+  },
+  "author": "Joe Freeman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitoffmyfarm/dew-bot/issues"
+  },
+  "homepage": "https://github.com/gitoffmyfarm/dew-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3"
+  }
+}

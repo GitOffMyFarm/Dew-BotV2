@@ -20,6 +20,12 @@ client.on('message', message => {
     if (message.content.toLowerCase().includes('do the dew')) {
         message.channel.send(returnMessage);
     }
+    if (message.content.toLowerCase().includes('pop out')) {
+        message.channel.send('On the east coast we call it "Soda out".');
+    }
+    if (message.content.toLowerCase().includes('pop out')) {
+        message.channel.send('On the east coast we call it "Soda out".');
+    }
 });
 
 client.login(process.env.DISCORD_TOKEN);

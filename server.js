@@ -23,8 +23,8 @@ client.on('message', message => {
     if (message.content.toLowerCase().includes('pop out')) {
         message.channel.send('On the east coast we call it "Soda out".');
     }
-    if (message.content.toLowerCase().includes('pop out')) {
-        message.channel.send('On the east coast we call it "Soda out".');
+    if (message.content.toLowerCase().includes('pop oot')) {
+        message.channel.send('In Canada we call it "Soda oot".');
     }
 });
 
